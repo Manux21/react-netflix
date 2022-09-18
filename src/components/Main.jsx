@@ -14,7 +14,7 @@ const Main = () => {
     })
   }, [])
 
-  console.log(movie)
+  // console.log(movie)
 
   return (
     <div className='w-full h-[750px] text-white'>
