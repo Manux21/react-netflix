@@ -4,7 +4,9 @@ const requests = {
 
   requestPopular: `https://api.themoviedb.org/3/movie/popular?api_key=${key}`,
   requestTopRated: `https://api.themoviedb.org/3/movie/top_rated?api_key=${key}`,
-  requestFilm: `https://api.themoviedb.org/3/movie/550?api_key=b${key}`
+  requestUpcoming: `https://api.themoviedb.org/3/movie/upcoming?api_key=${key}`,
+  requestFilm: `https://api.themoviedb.org/3/movie/550?api_key=${key}`,
+
 
 
 }
