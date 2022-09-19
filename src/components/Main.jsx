@@ -2,6 +2,7 @@ import React, {useEffect, useState} from 'react';
 import requests from '../Requests';
 import axios from "axios";
 
+
 const Main = () => {
   const [movies, setMovies] = useState([])
 
