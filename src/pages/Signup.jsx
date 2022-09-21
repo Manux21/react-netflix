@@ -45,7 +45,7 @@ const Signup = () => {
                   autoComplete='current-password'
                 />
 
-                <button className='bg-red-700 py-3 my-6 rounded font-bold '>Sign Up</button>
+                <button onClick={signUp} className='bg-red-700 py-3 my-6 rounded font-bold '>Sign Up</button>
                 <div className='flex justify-between items-center text-sm text-gray-600'>
                   <p><input className='mr-2' type="checkbox"/>Remember me</p>
                   <p>Need help?</p>
