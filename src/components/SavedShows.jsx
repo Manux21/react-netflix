@@ -3,16 +3,19 @@ import {MdChevronLeft, MdChevronRight} from "react-icons/md";
 import {UserAuth} from '../context/AuthContext'
 import {db} from '../Firebase'
 import {updateDoc, doc, onSnapshot} from 'firebase/firestore'
-import { AiOutlineClose } from 'react-icons/ai'
+import {AiOutlineClose} from 'react-icons/ai'
 
 const SavedShows = () => {
+
   const [movies, setMovies] = useState([])
   const {user} = UserAuth()
+
 
   const slideLeft = () => {
     let slider = document.getElementById('slider')
     slider.scrollLeft = slider.scrollLeft - 500;
   }
+
 
   const slideRight = () => {
     let slider = document.getElementById('slider')
